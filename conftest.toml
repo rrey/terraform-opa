@@ -1,0 +1,11 @@
+# You can override the directory in which to store and look for policies
+policy = "rego"
+
+# You can overide the namespace which to search for rules
+namespace = "terraform.analysis"
+
+# An array of individual policies to download. Only the repository
+# key is required. If tag is omitted then latest will be used
+#[[policies]]
+#repository = "instrumenta.azurecr.io/test"
+#tag = "latest"
